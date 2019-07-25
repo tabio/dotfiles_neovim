@@ -1,0 +1,4 @@
+# hook_add: dein.vim によってプラグインが認識されたときに発火
+
+[[plugins]]
+repo = 'Shougo/dein.vim'
