@@ -2,3 +2,6 @@
 
 [[plugins]]
 repo = 'Shougo/dein.vim'
+
+[[plugins]] # vim上でgitコマンド
+repo = 'tpope/vim-fugitive'

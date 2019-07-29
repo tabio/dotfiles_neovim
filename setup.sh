@@ -6,6 +6,9 @@ curl https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.sh >
 
 sh ./installer.sh ~/.cache/dein
 
-mkdir ~/.config
+if [ ! -d ~/.config ]
+then
+  mkdir ~/.config
+fi
 
 ln -sf ~/dotfiles_neovim/nvim ~/.config/nvim

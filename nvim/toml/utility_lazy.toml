@@ -1,6 +1,3 @@
-[[plugins]] # vim上でgitコマンド
-repo = 'tpope/vim-fugitive'
-
 [[plugins]] # HEADから差分表示
 repo = 'airblade/vim-gitgutter'
 
