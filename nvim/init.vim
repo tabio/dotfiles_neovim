@@ -9,6 +9,7 @@ endif
 
 augroup MyAutoCmd
   autocmd!
+  autocmd QuickFixCmdPost *grep* cwindow
 augroup END
 
 " dein.vimのディレクトリ
