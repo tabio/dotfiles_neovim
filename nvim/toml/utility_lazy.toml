@@ -6,7 +6,7 @@ repo = 'vim-scripts/AnsiEsc.vim'
 
 [[plugins]] # markdownをブラウザで閲覧
 repo = 'kannokanno/previm'
-on_ft = 'toml'
+on_ft = 'md'
 
 [[plugins]] # カラーコードを色付け
 repo = 'gorodinskiy/vim-coloresque.git'
@@ -40,3 +40,6 @@ nmap <F8> :TagbarToggle<CR>
 
 [[plugins]]
 repo = 'vim-scripts/vim-tags'
+
+[[plugins]]
+repo = 'dhruvasagar/vim-table-mode'
