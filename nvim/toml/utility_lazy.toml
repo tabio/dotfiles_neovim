@@ -43,3 +43,6 @@ repo = 'vim-scripts/vim-tags'
 
 [[plugins]]
 repo = 'dhruvasagar/vim-table-mode'
+
+[[plugins]] # 60i + = -> = * 60 | \di -> カーソル移動描画
+repo = 'vim-scripts/DrawIt'
