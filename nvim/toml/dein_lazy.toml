@@ -6,6 +6,20 @@
 [[plugins]]
 repo = 'Shougo/neocomplete.vim'
 on_i = 1
+hook_add = '''
+let g:neocomplete#enable_smart_case = 1
+let g:neocomplete#min_keyword_length = 3
+let g:neocomplete#enable_auto_delimiter = 1
+let g:neocomplete#auto_completion_start_length = 1
+inoremap <silent> <CR> <C-r>=<SID>my_cr_function()<CR>
+function! s:my_cr_function()
+  " 候補選択後Enterで改行しないように
+  return pumvisible() ? "\<C-y>" : "\<CR>"
+endfunction
+inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"
+inoremap <expr><C-h> neocomplete#smart_close_popup()."\<C-h>"
+inoremap <expr><BS> neocomplete#smart_close_popup()."\<C-h>"
+'''
 
 [[plugins]]
 repo     = 'Shougo/unite.vim'
