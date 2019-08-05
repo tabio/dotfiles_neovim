@@ -1,5 +1,5 @@
 {
   "suggest.enablePreselect": true,
-  "solargraph.commandPath": "/Users/atane/.rbenv/shims/solargraph"
+  "solargraph.commandPath": "/Users/hoge/.rbenv/shims/solargraph"
 }
 
