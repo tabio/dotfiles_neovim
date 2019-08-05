@@ -3,3 +3,11 @@ repo = 'Shougo/dein.vim'
 
 [[plugins]] # vim上でgitコマンド
 repo = 'tpope/vim-fugitive'
+
+[[plugins]]
+repo = 'neoclide/coc.nvim'
+merge = '0'
+rev = 'release'
+hook_add = '''
+let g:coc_global_extensions = ['coc-solargraph']
+'''
