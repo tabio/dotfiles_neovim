@@ -1,6 +1,7 @@
 #! /bin/bash
 brew install neovim
 brew install ctags
+brew install the_silver_searcher
 
 gem install solargraph
 
