@@ -4,10 +4,6 @@ repo = 'airblade/vim-gitgutter'
 [[plugins]] # ログファイルの色付け
 repo = 'vim-scripts/AnsiEsc.vim'
 
-[[plugins]] # markdownをブラウザで閲覧
-repo = 'kannokanno/previm'
-on_ft = 'md'
-
 [[plugins]] # カラーコードを色付け
 repo = 'gorodinskiy/vim-coloresque.git'
 
