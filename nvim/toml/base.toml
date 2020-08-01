@@ -9,7 +9,7 @@ repo = 'neoclide/coc.nvim'
 merge = '0'
 rev = 'release'
 hook_add = '''
-let g:coc_global_extensions = ['coc-solargraph']
+let g:coc_global_extensions = ['coc-solargraph', 'coc-html', 'coc-css', 'coc-angular', 'coc-json', 'coc-python', 'coc-tsserver']
 '''
 
 [[plugins]]
