@@ -10,6 +10,7 @@ endif
 augroup MyAutoCmd
   autocmd!
   autocmd QuickFixCmdPost *grep* cwindow
+  autocmd BufNewFile,BufRead *.py setlocal tabstop=4 softtabstop=4 shiftwidth=4
 augroup END
 
 " dein.vimのディレクトリ
